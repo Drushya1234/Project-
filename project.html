@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AwesomeApp - Your Personal Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2e3b4e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .hero-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2e3b4e;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero-section img {
+            max-width: 300px;
+            margin-left: 20px;
+        }
+
+        .cta-button {
+            background-color: #ff5c5c;
+            color: white;
+            padding: 14px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 30px;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4040;
+        }
+
+        .features-section {
+            background-color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .features-section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .feature-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .feature-card {
+            background-color: #f9f9f9;
+            padding: 30px;
+            width: 250px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .download-section {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #2e3b4e;
+            color: white;
+        }
+
+        .download-section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .download-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .download-button img {
+            width: 180px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>AwesomeApp</h1>
+        <p>Your Personal Assistant on the Go</p>
+    </header>
+
+    <section class="hero-section">
+        <div>
+            <h2>Stay Organized, Stay Ahead</h2>
+            <p>With AwesomeApp, you can manage your tasks, set reminders, and keep track of your goals all in one place.</p>
+            <a href="#download" class="cta-button">Download Now</a>
+        </div>
+        <img src="https://via.placeholder.com/300" alt="App Preview">
+    </section>
+
+    <section class="features-section">
+        <h2>Features</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <h3>Task Management</h3>
+                <p>Easily add, edit, and organize your tasks to stay on top of your work.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Reminders</h3>
+                <p>Set reminders for your important tasks, ensuring you never forget anything again.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Goal Tracking</h3>
+                <p>Track your long-term goals and see your progress towards achieving them.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-section" id="download">
+        <h2>Download AwesomeApp Today</h2>
+        <p>Get started with your personal assistant today! Available on iOS and Android.</p>
+        <div class="download-buttons">
+            <a href="#" target="_blank"><img src="https://via.placeholder.com/180x60?text=Download+on+the+App+Store" alt="App Store"></a>
+            <a href="#" target="_blank"><img src="https://via.placeholder.com/180x60?text=Get+it+on+Google+Play" alt="Google Play"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AwesomeApp. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
